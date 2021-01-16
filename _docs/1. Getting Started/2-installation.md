@@ -1,7 +1,7 @@
 ---
 title: "Installation"
 permalink: /installation/
-excerpt: "Instructions for installing the theme for new and existing Jekyll based sites."
+excerpt: "Installation instructions for VSGAN."
 last_modified_at: 2021-01-16T12:16:00-00:00
 toc: true
 ---

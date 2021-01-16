@@ -1,7 +1,7 @@
 ---
 title: "Building"
 permalink: /building/
-excerpt: "Instructions on building."
+excerpt: "Instructions on building VSGAN distribution wheels or installing from source."
 last_modified_at: 2021-01-16T12:30:00-00:00
 toc: false
 classes: wide
