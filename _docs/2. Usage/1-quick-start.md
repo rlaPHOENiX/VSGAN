@@ -1,7 +1,7 @@
 ---
 title: "Quick Start"
 permalink: /quick-start/
-excerpt: "Settings for configuring and customizing the theme."
+excerpt: "Example code snippet of VSGAN usage."
 last_modified_at: 2021-01-16T13:08:00-00:00
 toc: false
 classes: wide

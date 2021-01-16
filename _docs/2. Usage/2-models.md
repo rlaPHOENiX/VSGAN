@@ -1,7 +1,7 @@
 ---
 title: "Models"
 permalink: /models/
-excerpt: "Settings for configuring and customizing the theme."
+excerpt: "Information on PyTorch ESRGAN model files."
 last_modified_at: 2021-01-16T11:33:00-00:00
 toc: false
 classes: wide
