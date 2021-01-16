@@ -2,6 +2,7 @@
 title: "License"
 permalink: /license/
 excerpt: "Project License."
+last_modified_at: 2021-01-16T14:45:00-00:00
 toc: false
 classes: wide
 ---
