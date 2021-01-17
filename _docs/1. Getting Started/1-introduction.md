@@ -82,19 +82,39 @@ VapourSynth provides an extreme amount of image processing functionality for pre
 You can see a database of readily-available scripts and plugins for all kinds of purposes on [VSDB](https://vsdb.top). For help with VapourSynth head to [Doom9](https://forum.doom9.org) or [VideoHelp](https://forum.videohelp.com).
 {: .notice--info}
 
-### Example VSGAN output
+### Example VSGAN results
+
+#### American Dad S01E01
 
 <figure class="half">
    <a href="{{ '/assets/images/examples/american_dad_s01e01/before.png' | relative_url }}">
-      <img src="{{ '/assets/images/examples/american_dad_s01e01/before.png' | relative_url }}" alt="American Dad S01E01 (720x480) - Before">
+      <img src="{{ '/assets/images/examples/american_dad_s01e01/before.png' | relative_url }}" alt="Before - American Dad S01E01 (USA NTSC R1 DVD 720x480)">
    </a>
    <a href="{{ '/assets/images/examples/american_dad_s01e01/after.png' | relative_url }}">
-      <img src="{{ '/assets/images/examples/american_dad_s01e01/after.png' | relative_url }}" alt="American Dad S01E01 (1620x1080, 4x Scale Model, Downscale to x2.25) - After">
+      <img src="{{ '/assets/images/examples/american_dad_s01e01/after.png' | relative_url }}" alt="After - Private 4x Scale Model (2880x1920 downscaled x2.25 to 1620x1080)">
    </a>
+   <figcaption>Before (left): American Dad S01E01 (USA NTSC R1 DVD 720x480).</figcaption>
+   <figcaption>After (right): Private 4x Scale Model (2880x1920 downscaled x2.25 to 1620x1080).</figcaption>
    <figcaption>
-      Before (left): 720x480 resolution frame from American Dad S01E01 (USA R1 NTSC DVD). After (right): A private ESRGAN 4x scale model
-      using VSGAN on the before frame. This model was trained to fix inaccuracies in the DVD's color, remove Halo'ing/Glow,
-      and remove Chroma Droop. The result is a very crisp output for a show originally animated in SD. It's using VapourSynth's
-      core.std.StackHorizontal to provide a before and after comparison, with core.text.Text for the Before and After labels.
+      This model was trained to fix inaccuracies in the DVD's color, remove Halo'ing/Glow, and remove Chroma Droop.
+      The result is a very crisp output for a show originally animated in SD.
+   </figcaption>
+</figure>
+
+#### Family Guy S01E01
+
+<figure class="half">
+   <a href="{{ '/assets/images/examples/family_guy_s01e01/before.png' | relative_url }}">
+      <img src="{{ '/assets/images/examples/family_guy_s01e01/before.png' | relative_url }}" alt="Before - Family Guy S01E01 (USA NTSC R1 DVD 720x480)">
+   </a>
+   <a href="{{ '/assets/images/examples/family_guy_s01e01/after.png' | relative_url }}">
+      <img src="{{ '/assets/images/examples/family_guy_s01e01/after.png' | relative_url }}" alt="After - Private 4x Scale Model (2880x1920 downscaled x2.25 to 1620x1080)">
+   </a>
+   <figcaption>Before (left): Family Guy S01E01 (USA NTSC R1 DVD 720x480).</figcaption>
+   <figcaption>After (right): Private 4x Scale Model (2880x1920 downscaled x2.25 to 1620x1080).</figcaption>
+   <figcaption>
+      This model was trained to fix inaccuracies in the DVD's color, remove Halo'ing/Glow, and remove Chroma Droop.
+      The result is a very crisp output for a show originally animated in SD. Do note that the warping/stretch on the edges
+      is an animation/dvd edit and not caused by VSGAN or the model.
    </figcaption>
 </figure>
