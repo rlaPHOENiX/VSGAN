@@ -84,9 +84,12 @@ You can see a database of readily-available scripts and plugins for all kinds of
 
 ### Example VSGAN output
 
-<figure>
-   <a href="https://raw.githubusercontent.com/rlaPHOENiX/VSGAN/master/examples/cmp_1.png">
-      <img src="https://raw.githubusercontent.com/rlaPHOENiX/VSGAN/master/examples/cmp_1.png" alt="">
+<figure class="half">
+   <a href="/assets/images/examples/american_dad_s01e01/before.png">
+      <img src="/assets/images/examples/american_dad_s01e01/before.png" alt="American Dad S01E01 (720x480) - Before">
+   </a>
+   <a href="/assets/images/examples/american_dad_s01e01/after.png">
+      <img src="/assets/images/examples/american_dad_s01e01/after.png" alt="American Dad S01E01 (1620x1080, 4x Scale Model, Downscale to x2.25) - After">
    </a>
    <figcaption>
       Before (left): 720x480 resolution frame from American Dad S01E01 (USA R1 NTSC DVD). After (right): A private ESRGAN 4x scale model
