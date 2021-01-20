@@ -23,11 +23,11 @@ docs:
     children:
       - title: VSGAN
         url: /vsgan-class/
-      - title: ├─ VSGAN.load_model
+      - title: ├─ load_model()
         url: /vsgan-load-model/
-      - title: ├─ VSGAN.run
+      - title: ├─ run()
         url: /vsgan-run/
-      - title: └─ VSGAN.execute
+      - title: └─ execute()
         url: /vsgan-execute/
   - title: Meta
     children:
