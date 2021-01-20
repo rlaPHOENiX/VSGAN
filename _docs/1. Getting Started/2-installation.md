@@ -20,7 +20,7 @@ toc: true
 3. [**PyTorch**](https://pytorch.org/get-started/locally) **latest recommended** or 1.6.0+. Ensure you install PyTorch with CUDA support if you plan to use your GPU.
 4. [**NVIDIA CUDA**](https://developer.nvidia.com/cuda-downloads) **latest recommended** or 9.2+. Ensure the version is supported by the version of PyTorch that you will use.
 
-**Tip:** Ensure Python is added to PATH when installed (Tick `Add Python X.X to PATH` in `Customize Installation` mode) for an optimal and swift installation experience.
+**Tip:** Ensure Python is added to PATH when installing (Tick `Add Python X.X to PATH` in `Customize Installation` mode) for an optimal and swift installation experience.
 {: .notice--info}
 
 **Tip:** When installing VapourSynth, ensure you follow all the instructions on their official website for your OS. There are important instructions specific to each OS.
