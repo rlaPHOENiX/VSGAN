@@ -2,7 +2,7 @@
 title: "Installation"
 permalink: /installation/
 excerpt: "Installation instructions for VSGAN."
-last_modified_at: 2021-01-20T23:19:00-00:00
+last_modified_at: 2021-01-20T23:26:00-00:00
 toc: true
 ---
 
@@ -17,7 +17,7 @@ toc: true
 
 These are software you need installed which cannot be done automatically during installation. Install in the listed order. The latest version of all dependencies are recommended.
 
-1. [**Python 3.5+**][Python] & [pip][pip]
+1. [**Python 3.5+**][Python] & [**pip**][pip]
 2. [**VapourSynth**][VapourSynth]
 3. [**PyTorch 1.6.0+**][PyTorch]. Ensure you install PyTorch with CUDA support if you plan to use your GPU.
 4. [**NVIDIA CUDA 9.2+**][CUDA]. Ensure the version is supported by the version of PyTorch that you chose.
