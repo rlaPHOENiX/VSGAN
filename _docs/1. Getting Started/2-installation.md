@@ -2,7 +2,7 @@
 title: "Installation"
 permalink: /installation/
 excerpt: "Installation instructions for VSGAN."
-last_modified_at: 2021-01-20T23:12:00-00:00
+last_modified_at: 2021-01-20T23:19:00-00:00
 toc: true
 ---
 
@@ -13,17 +13,23 @@ toc: true
 
 **No Supported GPU?** If you don't mind waiting minutes or even hours per frame, then you can use your CPU instead of the GPU. Just note that it's not our responsibility if over-use of your CPU, lower it's life span, or even get it killed. Expect constantly high CPU Usage and Temperatures causing even your mouse to lag.
 
-## Software Dependencies
+## Dependencies
 
-1. [**Python**](https://python.org) 3.5+ and Python [PIP](https://pip.pypa.io/en/stable/installing).
-2. [**VapourSynth**](https://vapoursynth.com) **latest recommended** or R40+. Ensure the Python version you have installed is supported by the version of VapourSynth that you will use. The supported Python versions may differ per OS.
-3. [**PyTorch**](https://pytorch.org/get-started/locally) **latest recommended** or 1.6.0+. Ensure you install PyTorch with CUDA support if you plan to use your GPU.
-4. [**NVIDIA CUDA**](https://developer.nvidia.com/cuda-downloads) **latest recommended** or 9.2+. Ensure the version is supported by the version of PyTorch that you will use.
+These are software you need installed which cannot be done automatically during installation. Install in the listed order. The latest version of all dependencies are recommended.
 
-**Tip:** Ensure Python is added to PATH when installing (Tick `Add Python X.X to PATH` in `Customize Installation` mode) for an optimal and swift installation experience.
+1. [**Python 3.5+**][Python] & [pip][pip]
+2. [**VapourSynth**][VapourSynth]
+3. [**PyTorch 1.6.0+**][PyTorch]. Ensure you install PyTorch with CUDA support if you plan to use your GPU.
+4. [**NVIDIA CUDA 9.2+**][CUDA]. Ensure the version is supported by the version of PyTorch that you chose.
+
+**Tip for Python & pip:** Ensure Python is added to PATH for an optimal Python environment and swift installation;
+When installing, Tick `Add Python X.X to PATH` in `Customize Installation` mode.
+Pip may come pre-installed, run `pip -V` and if it tells you `pip x.x.x from xyz (python x.x)` then it's installed.
 {: .notice--info}
 
-**Tip:** When installing VapourSynth, ensure you follow all the instructions on their official website for your OS. There are important instructions specific to each OS.
+**Tip for VapourSynth:** When installing VapourSynth, ensure you follow all the instructions on their [official website][VapourSynth] for your OS.
+There are important instructions specific to each OS.
+The Pip/PyPI package `VapourSynth` is *not* the VapourSynth dependency that you need to install.
 {: .notice--info}
 
 ## Installing VSGAN
@@ -40,3 +46,9 @@ You may also install from source; Check out [Building]({{ '/building' | relative
 
 Once installed, make sure you give yourself a refresher on [Updating]({{ '/updating' | relative_url }}).
 {: .notice--success}
+
+  [Python]: https://python.org
+  [pip]: https://pip.pypa.io/en/stable/installing
+  [VapourSynth]: https://vapoursynth.com
+  [PyTorch]: https://pytorch.org/get-started/locally
+  [CUDA]: https://developer.nvidia.com/cuda-downloads
