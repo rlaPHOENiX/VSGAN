@@ -31,7 +31,7 @@ docs:
         url: /classes/vsgan/execute/
   - title: Meta
     children:
-      - title: Pip as Admin
+      - title: "Dont!: Pip as Admin"
         url: /pip-as-admin/
       - title: License
         url: /license/

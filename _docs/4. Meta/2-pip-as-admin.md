@@ -1,5 +1,5 @@
 ---
-title: "Pip as Admin"
+title: "Dont!: Pip as Admin"
 permalink: /pip-as-admin/
 excerpt: "Reasons against using pip under administrator permissions."
 last_modified_at: 2021-01-20T23:07:00-00:00
