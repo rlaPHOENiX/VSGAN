@@ -1,5 +1,5 @@
 # theme
-remote_theme: "mmistakes/minimal-mistakes@4.21.0"
+remote_theme: mmistakes/minimal-mistakes@4.21.0
 minimal_mistakes_skin: default  # default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
 
 # site
@@ -30,9 +30,9 @@ algolia:
 # site footer
 footer:
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/rlaphoenix/vsgan"
+    - label: GitHub
+      icon: fab fa-fw fa-github
+      url: https://github.com/rlaPHOENiX/VSGAN
 
 # social sharing
 twitter:
@@ -44,7 +44,7 @@ social:
   type: Person  # Person or Organization (defaults to Person)
   name: rlaPHOENiX # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://twitter.com/rlaphoenix"
+    - https://twitter.com/rlaPHOENiX
 
 # reading files
 include:
@@ -77,8 +77,8 @@ exclude:
 keep_files:
   - .git
   - .svn
-encoding: "utf-8"
-markdown_ext: "md"
+encoding: utf-8
+markdown_ext: md
 
 # conversion
 markdown: kramdown
@@ -119,7 +119,7 @@ defaults:
       author_profile: false
       share: true
       sidebar:
-        nav: "docs"
+        nav: docs
 
 # sass/scss
 sass:
