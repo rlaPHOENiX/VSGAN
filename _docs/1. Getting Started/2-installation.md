@@ -2,7 +2,7 @@
 title: "Installation"
 permalink: /installation/
 excerpt: "Installation instructions for VSGAN."
-last_modified_at: 2021-01-16T12:16:00-00:00
+last_modified_at: 2021-01-20T23:12:00-00:00
 toc: true
 ---
 
