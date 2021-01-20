@@ -1,6 +1,6 @@
 # theme
 remote_theme: mmistakes/minimal-mistakes@4.21.0
-minimal_mistakes_skin: default  # default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
+minimal_mistakes_skin: default
 
 # site
 locale: en-US
@@ -38,11 +38,9 @@ footer:
 twitter:
   username: rlaPHOENiX
 social:
-  # For specifying social profiles, used in _includes/seo.html
-  # - https://developers.google.com/structured-data/customize/social-profiles
-  type: Person  # Person or Organization (defaults to Person)
-  name: rlaPHOENiX # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type: Person
+  name: rlaPHOENiX
+  links:
     - https://twitter.com/rlaPHOENiX
 
 # reading files
@@ -123,10 +121,10 @@ defaults:
 # sass/scss
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed
 
 # outputting
-timezone: Europe/Dublin  # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Dublin
 
 # plugins
 plugins:
