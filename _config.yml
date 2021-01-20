@@ -37,7 +37,6 @@ footer:
 # social sharing
 twitter:
   username: rlaPHOENiX
-og_image: /assets/images/logo.webp  # Open Graph/Twitter default site image
 social:
   # For specifying social profiles, used in _includes/seo.html
   # - https://developers.google.com/structured-data/customize/social-profiles
