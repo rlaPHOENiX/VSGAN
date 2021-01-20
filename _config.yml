@@ -8,7 +8,7 @@ title: VSGAN Documentation
 masthead_title: rlaPHOENiX / VSGAN
 subtitle: Documentation
 title_separator: "-"
-name: &name "PHOENiX"  # &name is a YAML anchor which can be *referenced later
+name: PHOENiX
 description: Documentation for VSGAN - VapourSynth Single Image Super-Resolution Generative Adversarial Network (GAN).
 url: https://rlaphoenix.github.io/VSGAN
 repository: rlaPHOENiX/VSGAN
