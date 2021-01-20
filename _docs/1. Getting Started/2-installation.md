@@ -28,8 +28,15 @@ toc: true
 
 ## Installing VSGAN
 
-After all that dependency installation you're finally going to get redemption for your efforts! :D
-
 ```bash
 pip install vsgan
 ```
+
+**Tip:** Do not run pip under Administrator/Sudo permissions. See [Pip as Admin]({{ '/pip-as-admin/' | relative_url }}).
+{: .notice--warning}
+
+You may also install from source; Check out [Building]({{ '/building' | relative_url }}).
+{: .notice--info}
+
+Once installed, make sure you give yourself a refresher on [Updating]({{ '/updating' | relative_url }}).
+{: .notice--success}
