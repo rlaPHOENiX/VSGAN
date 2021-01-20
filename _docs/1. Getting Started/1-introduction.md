@@ -9,11 +9,17 @@ classes: wide
 
 VSGAN is a Single Image Super-Resolution Generative Adversarial Network (GAN) which uses the VapourSynth processing framework to handle input and output image data.
 
+This documentation can be downloaded and read locally (in the [gh-pages branch][gh-pages]), either as compiled Jekyll (`bundle exec jekyll serve`) or by simply reading the Markdown files in the [_docs][docs] folder.
+{: .notice--info}
+
 **Note:** The GAN Architecture is exactly that of [ESRGAN](https://github.com/xinntao/ESRGAN) by [xinntao](https://github.com/xinntao). All accomplishments of ESRGAN will also be achieved with VSGAN.
 {: .notice--success}
 
 **Warning:** Depending on the use-case, performance may not match the original ESRGAN, however, it won't be drastically slower.
 {: .notice--warning}
+
+  [gh-pages]: {{ 'https://github.com/' | append: site.repository | append: '/tree/gh-pages' }}
+  [docs]: {{ 'https://github.com/' | append: site.repository | append: '/tree/gh-pages/_docs' }}
 
 ## Quick Terminology Gloss-over
 
