@@ -7,6 +7,16 @@ toc: false
 classes: wide
 ---
 
-It's as simple as `pip install --upgrade vsgan`
+```bash
+pip install --upgrade vsgan
+```
 
-:O
+or
+
+```bash
+pip install vsgan==1.2.3  # replace 1.2.3 with the wanted version
+```
+
+If you originally installed vsgan using administrator permissions, make sure you update using administrator permissions!  
+See [Pip as Admin]({{ '/pip-as-admin/' | relative_url }}).
+{: .notice--warning}
