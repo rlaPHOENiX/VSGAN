@@ -2,7 +2,7 @@
 title: "Updating"
 permalink: /updating/
 excerpt: "Instructions on updating VSGAN."
-last_modified_at: 2021-01-15T23:09:00-00:00
+last_modified_at: 2021-01-20T23:25:00-00:00
 toc: false
 classes: wide
 ---
