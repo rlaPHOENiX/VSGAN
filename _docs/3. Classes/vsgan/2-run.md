@@ -1,6 +1,6 @@
 ---
 title: "VSGAN.run(clip: VideoNode, chunk: bool = False)"
-permalink: /vsgan-run/
+permalink: /classes/vsgan/run/
 excerpt: "Documentation on the VSGAN.run function."
 last_modified_at: 2021-01-16T12:56:00-00:00
 toc: false

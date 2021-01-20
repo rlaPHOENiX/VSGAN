@@ -1,6 +1,6 @@
 ---
 title: "VSGAN(device: (int, str) = \"cuda\")"
-permalink: /vsgan-class/
+permalink: /classes/vsgan/
 excerpt: "Documentation on the VSGAN class."
 last_modified_at: 2021-01-16T12:47:00-00:00
 toc: false

@@ -22,13 +22,13 @@ docs:
   - title: Classes
     children:
       - title: VSGAN
-        url: /vsgan-class/
+        url: /classes/vsgan/
       - title: ├─ load_model()
-        url: /vsgan-load-model/
+        url: /classes/vsgan/load-model/
       - title: ├─ run()
-        url: /vsgan-run/
+        url: /classes/vsgan/run/
       - title: └─ execute()
-        url: /vsgan-execute/
+        url: /classes/vsgan/execute/
   - title: Meta
     children:
       - title: Pip as Admin
