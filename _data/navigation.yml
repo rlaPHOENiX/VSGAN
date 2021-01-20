@@ -19,9 +19,9 @@ docs:
         url: /quick-start/
       - title: "Models"
         url: /models/
-  - title: Functions
+  - title: Classes
     children:
-      - title: "VSGAN (class)"
+      - title: VSGAN
         url: /vsgan-class/
       - title: "├─ VSGAN.load_model"
         url: /vsgan-load-model/
